@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu Mono", monospace;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.hero {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.hero .pokemon{
+  position: absolute;
+  height: 100%;
+  bottom: 0;
+  left: 35%;
+  z-index: 10;
+}
+.left {
+  position: absolute;
+  padding: 50px;
+  background-color: #fbc50b;
+  width: 55%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.left .pokemon-logo {
+  width: 250px;         /* Tweak the size */
+  margin-bottom: 20px;  /* Adds space below it */
+  margin-left: -35px;   /* PULLS it to the left to fix the invisible padding! */
+}
+
+.left h1 {
+  font-size: 90px; 
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+}
+.left p {
+  font-size: 15px;
+  line-height: 1.6; /* Adds space between lines of text */
+  margin-bottom: 20px;
+  width: 80%; /* Stops the text from stretching all the way across */
+}
+.left .headline{
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  width: 80%;
+}
+.left .pokeball-bg {
+  position: absolute;
+  width: 250px;
+  opacity: 0.1;
+  bottom: -100px;
+  left: 7%;
+}
+.left .slider-indicator{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 50px;  
+}
+.left .slider-indicator p {
+  width: auto;         /* Resets the width */
+  margin-bottom: 0;    /* Resets the margin so it centers perfectly */
+  font-weight: 700;    /* Optional: makes the 01/08 bold! */
+  color: #000000aa;
+}
+
+.left .slider-indicator .line{
+  height: 2px;
+  width: 65px;
+  background: #00000087;
+}
+.right {
+  position: absolute;
+  width: 45%;
+  height: 100%;
+  background-color: #fae9b6;
+  right: 0;
+  top: 0;
+}
+.right i{
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 40px;
+  cursor: pointer;
+}
+.right .dots-container{
+  position: absolute;
+  top: 50%;
+  right: 10%;
+transform: translateY(-50%);
+}
+.right .dots-container .dot{
+  background-color: #fbc50b;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+.right .dots-container .dot.active{
+  background-color: black;
+}

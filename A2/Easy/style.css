@@ -79,6 +79,7 @@ body {
   padding: 40px 20px;
 }
 .card-items {
+  position: relative;
   height: 500px;
   width: 350px;
   display: flex;
@@ -96,12 +97,14 @@ body {
   border-radius: 18px 18px 0 0;
 }
 .card-items .tag{
+  position: absolute;
+  top: 60%;
+  left: 16px;
   padding: 6px 14px;
   background-color: #551C0B;
   width: fit-content;
   border-radius: 14px;
   font-size: 14px;
-  margin: 12px 16px;
   color: #CD7551;
 }
 .card-items .title{

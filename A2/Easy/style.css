@@ -80,7 +80,7 @@ body {
 }
 .card-items {
   position: relative;
-  height: 450px;
+  height: 480px;
   width: 350px;
   display: flex;
   gap: 15px;
@@ -93,12 +93,12 @@ body {
   object-fit: cover;
   object-position: center;
   width: 100%;
-  height: 50%;
+  height: 55%;
   border-radius: 18px 18px 0 0;
 }
 .card-items .tag{
   position: absolute;
-  top: 63%;
+  top: 57%;
   left: 16px;
   padding: 6px 14px;
   background-color: #551C0B;
@@ -111,7 +111,7 @@ body {
   font-size: 21px;
   font-weight: 500;
   padding: 0 18px;
-  margin-top: 30px;
+  margin-top: 55px;
 }
 .card-items p{
   color: #747474;

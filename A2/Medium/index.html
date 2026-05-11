@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ASTRO - Winter Armor II</title>
+    <!-- ===========Style.css===================== -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- =======Remix Icon CDN============= -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- =======Google Fonts============= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ============ NAVBAR ============ -->
+    <nav class="navbar">
+      <div class="logo">ASTRO<span>.</span></div>
+      <div class="nav-items">
+        <a href="#" class="nav-link">PRODUCTS</a>
+        <a href="#" class="nav-link">CATEGORY</a>
+        <a href="#" class="nav-link">ABOUT US</a>
+        <a href="#" class="nav-link">CONTACT</a>
+      </div>
+      <div class="nav-icons">
+        <span class="icon-btn"><i class="ri-search-line"></i></span>
+        <span class="icon-btn"><i class="ri-shopping-cart-2-line"></i></span>
+        <span class="icon-btn"><i class="ri-user-3-line"></i></span>
+      </div>
+    </nav>
+
+    <!-- ============ HERO / PRODUCT SECTION ============ -->
+    <section class="hero">
+      <div class="left-col">
+        <span class="new-badge">NEW</span>
+        <h1 class="product-title">
+          ASTRO<br />WINTER<br />ARMOR <span class="accent">II</span>
+        </h1>
+        <p class="price">$560</p>
+
+        <div class="description">
+          <h3 class="desc-title">DESCRIPTION</h3>
+          <p class="desc-text">
+            A next-gen cold war jacket. The essence of retro style and the
+            resilience you need for extreme winter conditions. Engineered to
+            provide versatile function for your winter wardrobe, accented with
+            strategic utility details.
+          </p>
+          <a href="#" class="read-more">READ MORE <i class="ri-arrow-right-s-line"></i></a>
+        </div>
+
+        <div class="accordion">
+          <div class="acc-item">
+            <span>MATERIAL & CARE</span>
+            <i class="ri-arrow-down-s-line"></i>
+          </div>
+          <div class="acc-item">
+            <span>SHIPPING & RETURNS</span>
+            <i class="ri-arrow-down-s-line"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="center-col">
+        <img
+          src="./Assets/main-jacket.png"
+          alt="ASTRO Winter Armor II Jacket"
+          class="hero-img"
+        />
+      </div>
+
+      <div class="right-col">
+        <div class="size-selector">
+          <h3 class="section-label">SIZE</h3>
+          <ul class="size-list">
+            <li class="size-option">S</li>
+            <li class="size-option active">M</li>
+            <li class="size-option">L</li>
+            <li class="size-option">XL</li>
+          </ul>
+          <a href="#" class="size-guide">SIZE GUIDE <i class="ri-arrow-right-s-line"></i></a>
+        </div>
+
+        <div class="color-selector">
+          <h3 class="section-label">COLOR</h3>
+          <div class="color-grid">
+            <div class="color-option selected">
+              <img
+                src="./Assets/main-jacket.png"
+                alt="Beige jacket"
+                class="color-img"
+              />
+              <span class="color-name">BEIGE</span>
+            </div>
+            <div class="color-option">
+              <img
+                src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTYjZpVhxPflpqHIg22f7NemBjprk6iAvyAXKjbCkTDfynuwPQT"
+                alt="Red jacket"
+                class="color-img"
+              />
+              <span class="color-name">RED</span>
+            </div>
+            <div class="color-option">
+              <img
+                src="https://img01.ztat.net/article/spp-media-p1/1338ed5912294af0802f55bdd909ea2b/7a58e630f781481f8711ce4fce51a21c.jpg?imwidth=1800"
+                alt="Black jacket"
+                class="color-img"
+              />
+              <span class="color-name">BLACK</span>
+            </div>
+            <div class="color-option">
+              <img
+                src="https://blackskinny.com/cdn/shop/products/6-moncler-1017-alyx-9sm-tan-down-almond-jacket_1200x1200.jpg?v=1640287768"
+                alt="White jacket"
+                class="color-img"
+              />
+              <span class="color-name">WHITE</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="action-buttons">
+          <button class="wishlist-btn">
+            <i class="ri-heart-line"></i> ADD TO WISHLIST
+          </button>
+          <button class="add-bag-btn">
+            ADD TO BAG <i class="ri-shopping-bag-line"></i>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FEATURES STRIP ============ -->
+    <div class="features-strip">
+      <div class="feature-tag">
+        <i class="ri-snowflake-fill"></i>
+        <span>EXTREME WARMTH</span>
+      </div>
+      <div class="feature-tag">
+        <i class="ri-shield-star-line"></i>
+        <span>WIND RESISTANT</span>
+      </div>
+      <div class="feature-tag">
+        <i class="ri-quill-pen-line"></i>
+        <span>LIGHTWEIGHT</span>
+      </div>
+    </div>
+
+    <!-- ============ BOTTOM CARDS ============ -->
+    <section class="bottom-section">
+      <div class="card">
+        <img src="./Assets/product-1.png" alt="Water repellent feature" />
+        <div class="card-text">
+          <h3>3X WATER-REPELLENT</h3>
+          <p>
+            The fabric repels rain, snow and moisture while keeping you dry and
+            comfortable.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./Assets/product-2.png" alt="3D puffered areas" />
+        <div class="card-text">
+          <h3>3D AREAS PUFFERED</h3>
+          <p>
+            Strategically padded zones trap heat and maximize insulation without
+            the bulk.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./Assets/product-3.png" alt="Insulation feature" />
+        <div class="card-text">
+          <h3>INSULATION</h3>
+          <p>
+            Advanced thermal filling locks in warmth up to -30°C for extreme
+            conditions.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="./Assets/product-4.png" alt="Utility pockets" />
+        <div class="card-text">
+          <h3>UTILITY POCKETS</h3>
+          <p>
+            Multi-functional pockets for secure storage on the go.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FOOTER BAR ============ -->
+    <footer class="footer-bar">
+      <div class="footer-item">
+        <i class="ri-global-line"></i>
+        <div>
+          <h4>PREMIUM FABRICS</h4>
+          <p>Durable, high-performance materials.</p>
+        </div>
+      </div>
+      <div class="footer-item">
+        <i class="ri-add-circle-line"></i>
+        <div>
+          <h4>THERMAL PROTECTION</h4>
+          <p>Built for extreme winter climates.</p>
+        </div>
+      </div>
+      <div class="footer-item">
+        <i class="ri-compass-3-line"></i>
+        <div>
+          <h4>DESIGNED FOR FUNCTION</h4>
+          <p>Every detail serves a purpose.</p>
+        </div>
+      </div>
+      <div class="footer-item">
+        <i class="ri-star-line"></i>
+        <div>
+          <h4>LIMITED EDITION</h4>
+          <p>Exclusive drops, limited quantities.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

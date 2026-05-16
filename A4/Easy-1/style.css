@@ -30,10 +30,13 @@ body {
   grid-row: 1/3;
   grid-column: 1/2;
 }
-.grid-container .card-avatar,
-.grid-container .card-character{
+.grid-container .card-avatar {
   padding: 0;
   max-height: 280px;
+  overflow: hidden;
+}
+.grid-container .card-character {
+  padding: 0;
   overflow: hidden;
 }
 .card-avatar img,
@@ -275,7 +278,7 @@ body {
 .butusic {
   font-size: 80px;
   font-family: Impact, "Arial Narrow Bold", sans-serif; 
-  font-weight: 900;
+  font-weight: 100;
   letter-spacing: -1px;
   line-height: 0.95;
   text-transform: uppercase;
